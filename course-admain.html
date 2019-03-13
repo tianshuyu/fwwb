@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>文思海辉</title>	
+		
+		<!--Favicon -->
+		<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+
+		<!--Bootstrap.min css-->
+		<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+		<!--Icons css-->
+		<link rel="stylesheet" href="assets/css/icons.css">
+
+		<!--Style css-->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<!--mCustomScrollbar css-->
+		<link rel="stylesheet" href="assets/plugins/scroll-bar/jquery.mCustomScrollbar.css">
+
+		<!--Sidemenu css-->
+		<link rel="stylesheet" href="assets/plugins/toggle-menu/sidemenu.css">
+
+		<!--Full calendar css-->
+		<link rel="stylesheet" href="assets/plugins/fullcalendar/stylesheet1.css">
+		
+		<!--morris css-->
+		<link rel="stylesheet" href="assets/plugins/morris/morris.css">
+		<!--Fullcalendar css-->
+		<link rel="stylesheet" href="assets/plugins/fullcalendar/fullcalendar.min.css">
+		<link rel="stylesheet" href="assets/plugins/fullcalendar/fullcalendar.print.min.css" media="print">
+		<link rel="stylesheet" href="assets/plugins/fullcalendar/stylesheet.css">
+	</head>
+
+	<body class="app ">
+
+		<div id="spinner"></div>
+
+		<div id="app">
+			<div class="main-wrapper" >
+				<nav class="navbar navbar-expand-lg main-navbar">
+					<a class="header-brand" href="index.html">
+						<img src="assets/img/brand/logo.jpg" class="header-brand-img" alt="文思海辉 ">
+					</a>
+					<form class="form-inline mr-auto">
+						<ul class="navbar-nav mr-3">
+							<li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="ion ion-navicon-round"></i></a></li>
+							<li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-md-none navsearch"><i class="ion ion-search"></i></a></li>
+						</ul>
+						<div class="search-element">
+							<input class="form-control" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-primary" type="submit"><i class="ion ion-search"></i></button>
+						</div>
+					</form>
+					<ul class="navbar-nav navbar-right">
+						<li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="ion-ios-email-outline"></i></a>
+							<div class="dropdown-menu dropdown-list dropdown-menu-right">
+								<div class="dropdown-header">信息
+									<div class="float-right">
+										<a href="#">查看全部</a>
+									</div>
+								</div>
+								<div class="dropdown-list-content">
+									<a href="#" class="dropdown-item dropdown-item-unread">
+										<img alt="image" src="assets/img/avatar/avatar-1.jpeg.jpg" class="rounded-circle dropdown-item-img">
+										<div class="dropdown-item-desc">
+											<div class="dropdownmsg d-flex">
+												<div class="">
+													<b>小明</b>
+		<!-- 后台消息交互	 -->						<p>你好</p> 
+												</div>
+												<div class="time">十分钟之前</div>
+											</div>
+
+										</div>
+									</a>
+									<a href="#" class="dropdown-item dropdown-item-unread">
+										<img alt="image" src="assets/img/avatar/avatar-1.jpeg.jpg" class="rounded-circle dropdown-item-img">
+										<div class="dropdown-item-desc">
+											<div class="dropdownmsg d-flex">
+												<div class="">
+													<b>小明</b>
+		<!-- 后台消息交互	 -->						<p>你好</p> 
+												</div>
+												<div class="time">十分钟之前</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="dropdown-item">
+										<img alt="image" src="assets/img/avatar/avatar-1.jpeg.jpg" class="rounded-circle dropdown-item-img">
+										<div class="dropdown-item-desc">
+											<div class="dropdownmsg d-flex">
+												<div class="">
+													<b>小明</b>
+		<!-- 后台消息交互	 -->						<p>你好</p> 
+												</div>
+												<div class="time">十分钟之前</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="dropdown-item">
+										<img alt="image" src="assets/img/avatar/avatar-1.jpeg.jpg" class="rounded-circle dropdown-item-img">
+										<div class="dropdown-item-desc">
+											<div class="dropdownmsg d-flex">
+												<div class="">
+													<b>小明</b>
+		<!-- 后台消息交互	 -->						<p>你好</p> 
+												</div>
+												<div class="time">十分钟之前</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="dropdown-item">
+										<img alt="image" src="assets/img/avatar/avatar-1.jpeg.jpg" class="rounded-circle dropdown-item-img">
+										<div class="dropdown-item-desc">
+											<div class="dropdownmsg d-flex">
+												<div class="">
+													<b>小明</b>
+		<!-- 后台消息交互	 -->						<p>你好</p> 
+												</div>
+												<div class="time">十分钟之前</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link  nav-link-lg beep"><i class="ion-ios-bell-outline"></i></a>
+							<div class="dropdown-menu dropdown-list dropdown-menu-right">
+								<div class="dropdown-header">通知
+									<div class="float-right">
+										<a href="#">查看全部</a>
+									</div>
+								</div>
+								<div class="dropdown-list-content">
+									<a href="#" class="dropdown-item">
+										<i class="fa fa-users text-primary"></i>
+										<div class="dropdown-item-desc">
+											<b>省略......</b>
+										</div>
+									</a>
+									<a href="#" class="dropdown-item">
+										<i class="fa fa-exclamation-triangle text-danger"></i>
+										<div class="dropdown-item-desc">
+											<b>省略......</b>
+										</div>
+									</a>
+									<a href="#" class="dropdown-item">
+										<i class="fa fa-users text-warning"></i>
+										<div class="dropdown-item-desc">
+											<b>省略......</b>
+										</div>
+									</a>
+									<a href="#" class="dropdown-item">
+										<i class="fa fa-shopping-cart text-success"></i>
+										<div class="dropdown-item-desc">
+											<b>省略......</b>
+										</div>
+									</a>
+									<a href="#" class="dropdown-item">
+										<i class="fa fa-comment text-primary"></i>
+										<div class="dropdown-item-desc">
+											<b>省略......</b> <div class="float-right"><span class="badge badge-pill badge-danger badge-sm">67</span></div>
+										</div>
+									</a>									
+								</div>
+							</div>
+						</li>
+						<li class="dropdown dropdown-list-toggle">
+							<a href="#" class="nav-link nav-link-lg full-screen-link">
+								<i class="ion-arrow-expand"  id="fullscreen-button"></i>
+							</a>
+						</li>
+						<li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg">
+							<img src="assets/img/avatar/1.jpg" alt="profile-user" class="rounded-circle w-32">
+							<div class="d-sm-none d-lg-inline-block">Web Admain</div></a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a href="index-admain.html" class="dropdown-item has-icon">
+									<i class="ion ion-android-person"></i> 个人中心
+								</a>
+								<a href="javascript:void(0);" class="dropdown-item has-icon">
+									<i class="ion-android-drafts"></i> 消息
+								</a>
+								<a href="index-admain.html" class="dropdown-item has-icon">
+									<i class="ion ion-gear-a"></i> 设置
+								</a>
+								<a href="#" class="dropdown-item has-icon">
+									<i class="ion-ios-redo"></i> 登出
+								</a>
+							</div>
+						</li>
+					</ul>
+				</nav>
+<!-- 侧边栏 -->
+				<aside class="app-sidebar">
+					<ul class="side-menu">
+						<li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fa fa-table"></i><span class="side-menu__label">课程</span><i class="angle fa fa-angle-right"></i></a>
+							<ul class="slide-menu">
+								<li><a href="all-courses-admain.html" class="slide-item">计算机类课程</a></li>
+								<li><a href="all-courses-admain.html" class="slide-item">艺术类课程</a></li>
+								<li><a href="all-courses-admain.html" class="slide-item">金融类课程</a></li>
+								<li><a href="all-courses-admain.html" class="slide-item">人文类课程</a></li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fa fa-file-text"></i><span class="side-menu__label">用户</span><i class="angle fa fa-angle-right"></i></a>
+							<ul class="slide-menu">
+								<li><a href="all-teachers-admain.html" class="slide-item">所有教师用户</a></li>
+								<li><a href="all-students-admain.html" class="slide-item">所有学生用户</a></li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fa fa-pie-chart"></i><span class="side-menu__label">管理员</span><i class="angle fa fa-angle-right"></i></a>
+							<ul class="slide-menu">
+								<li><a href="index-admain.html" class="slide-item">账户</a></li>
+								<li><a href="unprocessed-course-1.html" class="slide-item">待处理的课程</a></li>
+								<li><a href="lockscreen.html" class="slide-item">锁定界面</a></li>
+							</ul>
+						</li>
+					</ul>
+				</aside>
+
+				<div class="app-content">
+					<section class="section">
+                    	<ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">课程</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">课程详情</li>
+                        </ol>
+
+						<div class="section-body">
+
+							管理员看课程详情页(待做)
+						</div>
+					</section>
+				</div>
+
+
+
+
+		<!--Jquery.min js-->
+		<script src="assets/js/jquery.min.js"></script>
+
+		<!--popper js-->
+		<script src="assets/js/popper.js"></script>
+
+		<!--Tooltip js-->
+		<script src="assets/js/tooltip.js"></script>
+
+		<!--Bootstrap.min js-->
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+		<!--Jquery.nicescroll.min js-->
+		<script src="assets/plugins/nicescroll/jquery.nicescroll.min.js"></script>
+
+		<!--Scroll-up-bar.min js-->
+		<script src="assets/plugins/scroll-up-bar/dist/scroll-up-bar.min.js"></script>
+
+		<!--Sidemenu js-->
+		<script src="assets/plugins/toggle-menu/sidemenu.js"></script>
+
+		<!--mCustomScrollbar js-->
+		<script src="assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!--DataTables js-->	
+		
+		<script src="assets/plugins/Datatable/js/jquery.dataTables.js"></script>
+		<script src="assets/plugins/Datatable/js/dataTables.bootstrap4.js"></script>
+	
+		<!--Scripts js-->
+		<script src="assets/js/scripts.js"></script>
+
+		<script>
+			$(function(e) {
+				$('#example').DataTable();
+				$("button[type='button']").click(function() {
+		        $("input[name='test']:checked").each(function() { // 遍历选中的checkbox
+		            n = $(this).parents("tr").index()+1;  // 获取checkbox所在行的顺序
+		            $("table#example").find("tr:eq("+n+")").remove();
+		        });
+		    });
+			});
+		</script>
+		
+		
+	</body>
+</html>
